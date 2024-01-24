@@ -1,0 +1,15 @@
+C:\Users\kyryl\VSCode\AdventOfCode2021\AdventOfCode2021\bin\Debug\net7.0\AdventOfCode2021.exe
+C:\Users\kyryl\VSCode\AdventOfCode2021\AdventOfCode2021\bin\Debug\net7.0\AdventOfCode2021.deps.json
+C:\Users\kyryl\VSCode\AdventOfCode2021\AdventOfCode2021\bin\Debug\net7.0\AdventOfCode2021.runtimeconfig.json
+C:\Users\kyryl\VSCode\AdventOfCode2021\AdventOfCode2021\bin\Debug\net7.0\AdventOfCode2021.dll
+C:\Users\kyryl\VSCode\AdventOfCode2021\AdventOfCode2021\bin\Debug\net7.0\AdventOfCode2021.pdb
+C:\Users\kyryl\VSCode\AdventOfCode2021\AdventOfCode2021\obj\Debug\net7.0\AdventOfCode2021.csproj.AssemblyReference.cache
+C:\Users\kyryl\VSCode\AdventOfCode2021\AdventOfCode2021\obj\Debug\net7.0\AdventOfCode2021.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kyryl\VSCode\AdventOfCode2021\AdventOfCode2021\obj\Debug\net7.0\AdventOfCode2021.AssemblyInfoInputs.cache
+C:\Users\kyryl\VSCode\AdventOfCode2021\AdventOfCode2021\obj\Debug\net7.0\AdventOfCode2021.AssemblyInfo.cs
+C:\Users\kyryl\VSCode\AdventOfCode2021\AdventOfCode2021\obj\Debug\net7.0\AdventOfCode2021.csproj.CoreCompileInputs.cache
+C:\Users\kyryl\VSCode\AdventOfCode2021\AdventOfCode2021\obj\Debug\net7.0\AdventOfCode2021.dll
+C:\Users\kyryl\VSCode\AdventOfCode2021\AdventOfCode2021\obj\Debug\net7.0\refint\AdventOfCode2021.dll
+C:\Users\kyryl\VSCode\AdventOfCode2021\AdventOfCode2021\obj\Debug\net7.0\AdventOfCode2021.pdb
+C:\Users\kyryl\VSCode\AdventOfCode2021\AdventOfCode2021\obj\Debug\net7.0\AdventOfCode2021.genruntimeconfig.cache
+C:\Users\kyryl\VSCode\AdventOfCode2021\AdventOfCode2021\obj\Debug\net7.0\ref\AdventOfCode2021.dll
