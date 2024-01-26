@@ -29,7 +29,6 @@ class Day4 {
         var winnerfound = (0, 0);
         var markCounter = 0;
         var winTracker = new int[boardnum+1];
-        var totalwins = 0;
 
         for (int i = 0; i<drawNumber.Length; i++) // Iterate through bingo numbers
         {
