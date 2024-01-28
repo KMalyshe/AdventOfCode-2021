@@ -8,7 +8,7 @@ class Day6 {
         {
             lanternFish[Int32.Parse(s)] += 1;
         }
-        for (int i = 0; i<256; i++)
+        for (int i = 0; i<256; i++) // Part 1: i<80, Part 2: i<256
         {
             List<long> fishCheckpoint = new List<long>(lanternFish);
             for (int j = 8; j>0; j--)
