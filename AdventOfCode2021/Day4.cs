@@ -42,23 +42,22 @@ class Day4 {
                         if (bingoboards[board][linenum][num] == drawNumber[i]) // If the current number corresponds to the bingo number
                         {
                             bingoboards[board][linenum][num] = "X";
-                            for (int j = 0; j<5; j++) {
+                            for (int j = 0; j<5; j++) 
+                            { // Row
                                 if (bingoboards[board][linenum][j] == "X") markCounter+= 1;
                             }
-                            if (markCounter == 5) {
-                                /* Part One
-                                winnerfound = (board, Convert.ToInt32(drawNumber[i]));
-                                goto SearchEnd;
-                                */
-                                winTracker[board] = 1;
+                            if (markCounter != 5) markCounter = 0;
+                            for (int j = 0; j<5; j++)
+                            { // Column
+                                if (markCounter == 5) break;
+                                if (bingoboards[board][j][num] == "X") markCounter+= 1;
                             }
-                            markCounter = 0;
-                            for (int j = 0; j<5; j++) if (bingoboards[board][j][num] == "X") markCounter+= 1;
                             if (markCounter == 5) {
                                 /* Part One
                                 winnerfound = (board, Convert.ToInt32(drawNumber[i]));
                                 goto SearchEnd;
                                 */
+                                // Part 2 only
                                 winTracker[board] = 1;
                             }
                             markCounter = 0; 
