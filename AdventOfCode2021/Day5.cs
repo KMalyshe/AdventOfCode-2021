@@ -78,7 +78,7 @@ class Day5 {
                         }
                     }
                 }
-                HashSet<Tuple<int, int>> outInIntersect = outerSet.AsQueryable().Intersect(innerSet).ToHashSet();
+                HashSet<Tuple<int, int>> outInIntersect = outerSet.Intersect(innerSet).ToHashSet();
                 intersections.UnionWith(outInIntersect);
                 innerSet.Clear();
             }
