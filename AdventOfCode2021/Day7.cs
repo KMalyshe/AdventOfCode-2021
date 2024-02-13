@@ -1,10 +1,13 @@
 using System.Collections.Generic;
 using System;
 using System.ComponentModel.Design;
+using System.Diagnostics;
 class Day7 {
 
     public static void solve()
     {
+        var watch = new Stopwatch();
+        watch.Start();
         var input = new List<String>(File.ReadAllLines(@"C:\AoCFiles\21Day7.txt"));
         List<int> numberListInt = input[0].Split(",").Select(int.Parse).ToList();
         numberListInt.Sort();
@@ -22,6 +25,8 @@ class Day7 {
         }
         */
         Console.WriteLine(solveCenter(numberListInt));
+        watch.Stop();
+        Console.WriteLine($"Execution Time: {watch.ElapsedMilliseconds} ms"); // 45ms ish
     }
 
     //Part 1: public static int solveCenter(List<int> numberList, int index), just add the steps converging on index calculated above
